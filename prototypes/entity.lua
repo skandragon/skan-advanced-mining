@@ -1,12 +1,12 @@
-require ("prototypes.entity.demo-pipecovers")
-require ("prototypes.entity.assemblerpipes")
+-- require ("prototypes.entity.demo-pipecovers")
+--require ("prototypes.entity.assemblerpipes")
 
 local protodrill = {
     type = "mining-drill",
-    name = "advanced-mining-drill",
+    name = "skan-advanced-mining-drill",
     icon = "__Advanced-Drills__/graphics/mining-drills/advanced-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "advanced-mining-drill"},
+    minable = {mining_time = 1, result = "skan-advanced-mining-drill"},
     max_health = 600,
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",
@@ -868,8 +868,8 @@ local protodrill = {
 local function make_drill(name, health, emissions_factor, mining_speed, mining_power, watts, search_radius, slots)
     local drill = util.table.deepcopy(protodrill)
     drill.name = name .. "-mining-drill"
-    drill.icon = "__Advanced-Drills__/graphics/mining-drills/" .. name .. "-mining-drill.png"
-    drill.minable.result = name .. "-mining-drill"
+    drill.icon = "__Advanced-Drills__/graphics/mining-drills/skan-" .. name .. "-mining-drill.png"
+    drill.minable.result = "skan-" .. name .. "-mining-drill"
     drill.max_health = health
     drill.mining_speed = mining_speed
     drill.mining_power = mining_power

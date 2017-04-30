@@ -2,7 +2,7 @@ data:extend({
 
   {
     type = "recipe",
-    name = "advanced-mining-drill",
+    name = "skan-advanced-mining-drill",
     energy_required = 5,
 	enabled = false,
     ingredients =
@@ -13,34 +13,34 @@ data:extend({
       {"iron-gear-wheel", 15},
       {"iron-plate", 25}
     },
-    result = "advanced-mining-drill"
+    result = "skan-advanced-mining-drill"
   },
   {
     type = "recipe",
-    name = "elite-mining-drill",
+    name = "skan-elite-mining-drill",
     energy_required = 15,
 	enabled = false,
     ingredients =
     {
-      {"advanced-mining-drill", 4},
+      {"skan-advanced-mining-drill", 4},
 	  {"advanced-circuit", 10},
       {"iron-gear-wheel", 40},
       {"iron-plate", 50}
     },
-    result = "elite-mining-drill"
+    result = "skan-elite-mining-drill"
   },
   {
     type = "recipe",
-    name = "ultimate-mining-drill",
+    name = "skan-ultimate-mining-drill",
     energy_required = 20,
 	enabled = false,
     ingredients =
     {
-      {"elite-mining-drill", 4},
+      {"skan-elite-mining-drill", 4},
 	  {"advanced-circuit", 20},
 	  {"processing-unit", 5},
       {"iron-gear-wheel", 50},
     },
-    result = "ultimate-mining-drill"
+    result = "skan-ultimate-mining-drill"
   },
 })
