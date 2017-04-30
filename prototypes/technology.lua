@@ -3,8 +3,8 @@ data:extend({
   {
     type = "technology",
     name = "skan-advanced-mining-1",
-    localised_name = "technology-name.skan-advanced-mining-1",
-    localised_description = "technology-description.skan-advanced-mining-1",
+    localised_name = {"technology-name.skan-advanced-mining-1"},
+    localised_description = {"technology-description.skan-advanced-mining-1"},
     icon = "__Advanced-Drills__/graphics/mining-drills/advanced-mining-drill.png",
     effects =
     {
@@ -29,8 +29,8 @@ data:extend({
   {
     type = "technology",
     name = "skan-advanced-mining-2",
-    localised_name = "technology-name.skan-advanced-mining-2",
-    localised_description = "technology-description.skan-advanced-mining-2",
+    localised_name = {"technology-name.skan-advanced-mining-2"},
+    localised_description = {"technology-description.skan-advanced-mining-2"},
     icon = "__Advanced-Drills__/graphics/mining-drills/elite-mining-drill.png",
     effects =
     {
@@ -57,8 +57,8 @@ data:extend({
   {
     type = "technology",
     name = "skan-advanced-mining-3",
-    localised_name = "technology-name.skan-advanced-mining-3",
-    localised_description = "technology-description.skan-advanced-mining-3",
+    localised_name = {"technology-name.skan-advanced-mining-3"},
+    localised_description = {"technology-description.skan-advanced-mining-3"},
     icon = "__Advanced-Drills__/graphics/mining-drills/ultimate-mining-drill.png",
     effects =
     {
