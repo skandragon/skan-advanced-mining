@@ -2,13 +2,13 @@ data:extend({
 
   {
     type = "technology",
-    name = "advanced-miner-1",
+    name = "skan-advanced-mining-1",
     icon = "__Advanced-Drills__/graphics/mining-drills/advanced-mining-drill.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "advanced-mining-drill"
+        recipe = "skan-advanced-mining-drill"
       },
     },
     prerequisites = {"steel-processing", "oil-processing"},
@@ -26,16 +26,16 @@ data:extend({
   },
   {
     type = "technology",
-    name = "advanced-miner-2",
+    name = "skan-advanced-mining-2",
     icon = "__Advanced-Drills__/graphics/mining-drills/elite-mining-drill.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "elite-mining-drill"
+        recipe = "skan-elite-mining-drill"
       },
     },
-    prerequisites = {"advanced-miner-1"},
+    prerequisites = {"skan-advanced-mining-1"},
     unit =
     {
       count = 350,
@@ -52,16 +52,16 @@ data:extend({
   },
   {
     type = "technology",
-    name = "advanced-miner-3",
+    name = "skan-advanced-mining-3",
     icon = "__Advanced-Drills__/graphics/mining-drills/ultimate-mining-drill.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "ultimate-mining-drill"
+        recipe = "skan-ultimate-mining-drill"
       },
     },
-    prerequisites = {"advanced-miner-2"},
+    prerequisites = {"skan-advanced-mining-2"},
     unit =
     {
       count = 450,

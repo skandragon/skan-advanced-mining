@@ -867,8 +867,8 @@ local protodrill = {
 
 local function make_drill(name, health, emissions_factor, mining_speed, mining_power, watts, search_radius, slots)
     local drill = util.table.deepcopy(protodrill)
-    drill.name = name .. "-mining-drill"
-    drill.icon = "__Advanced-Drills__/graphics/mining-drills/skan-" .. name .. "-mining-drill.png"
+    drill.name = "skan-" .. name .. "-mining-drill"
+    drill.icon = "__Advanced-Drills__/graphics/mining-drills/" .. name .. "-mining-drill.png"
     drill.minable.result = "skan-" .. name .. "-mining-drill"
     drill.max_health = health
     drill.mining_speed = mining_speed
