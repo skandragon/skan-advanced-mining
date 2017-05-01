@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "skan-advanced-mining-drill",
-    icon = "__Advanced-Drills__/graphics/mining-drills/advanced-mining-drill.png",
+    icon = "__skan-advanced-mining__/graphics/mining-drills/advanced-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "extraction-machine",
     order = "a[items]-c[skan-advanced-mining-drill]",
@@ -12,7 +12,7 @@ data:extend({
   {
     type = "item",
     name = "skan-elite-mining-drill",
-    icon = "__Advanced-Drills__/graphics/mining-drills/elite-mining-drill.png",
+    icon = "__skan-advanced-mining__/graphics/mining-drills/elite-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "extraction-machine",
     order = "a[items]-d[skan-elite-mining-drill]",
@@ -22,7 +22,7 @@ data:extend({
   {
     type = "item",
     name = "skan-ultimate-mining-drill",
-    icon = "__Advanced-Drills__/graphics/mining-drills/ultimate-mining-drill.png",
+    icon = "__skan-advanced-mining__/graphics/mining-drills/ultimate-mining-drill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "extraction-machine",
     order = "a[items]-e[skan-ultimate-mining-drill]",

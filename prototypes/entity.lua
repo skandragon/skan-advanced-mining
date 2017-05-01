@@ -4,7 +4,7 @@
 local protodrill = {
     type = "mining-drill",
     name = "skan-advanced-mining-drill",
-    icon = "__Advanced-Drills__/graphics/mining-drills/advanced-mining-drill.png",
+    icon = "__skan-advanced-mining__/graphics/mining-drills/advanced-mining-drill.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "skan-advanced-mining-drill"},
     max_health = 600,
@@ -868,7 +868,7 @@ local protodrill = {
 local function make_drill(name, health, emissions_factor, mining_speed, mining_power, watts, search_radius, slots)
     local drill = util.table.deepcopy(protodrill)
     drill.name = "skan-" .. name .. "-mining-drill"
-    drill.icon = "__Advanced-Drills__/graphics/mining-drills/" .. name .. "-mining-drill.png"
+    drill.icon = "__skan-advanced-mining__/graphics/mining-drills/" .. name .. "-mining-drill.png"
     drill.minable.result = "skan-" .. name .. "-mining-drill"
     drill.max_health = health
     drill.mining_speed = mining_speed
