@@ -18,6 +18,8 @@ local protodrill = {
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
       base_area = 1,
+      height = 2,
+      base_level = -1,
       pipe_connections =
       {
         { position = {-2, 0} },
@@ -824,7 +826,7 @@ local protodrill = {
         }
       },
     },
-    mining_speed = .8,
+    mining_speed = 0.8,
     energy_source =
     {
       type = "electric",
@@ -862,7 +864,7 @@ local protodrill = {
       get_circuit_connector_sprites({0.09375, 1},         {0.09375, 1},         0),
       get_circuit_connector_sprites({-1.3125, -0.3125},   {-1.3125, -0.3125},   6)
     },
-    circuit_wire_max_distance = 7.5,
+    circuit_wire_max_distance = 9,
 }
 
 local function make_drill(name, health, emissions_factor, mining_speed, mining_power, watts, search_radius, slots)
