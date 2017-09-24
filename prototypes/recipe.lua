@@ -9,7 +9,6 @@ data:extend({
     {
 	  {"electric-mining-drill", 4},
       {"electronic-circuit", 10},
-	  {"advanced-circuit", 1},
       {"iron-gear-wheel", 15},
       {"iron-plate", 25}
     },
