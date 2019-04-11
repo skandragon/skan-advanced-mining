@@ -1,9 +1,9 @@
 {
   "name": "skan-advanced-mining",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "title": "Skandragon's Advanced Mining",
   "author": "Skandragon",
   "homepage": "https://github.com/skandragon/skan-advanced-mining",
   "description": "Three more tiers of electric mining drills for increased speed and area.",
-  "factorio_version": "0.16"
+  "factorio_version": "0.17"
 }

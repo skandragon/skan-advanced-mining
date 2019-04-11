@@ -7,21 +7,19 @@ data:extend({
     localised_description = {"technology-description.skan-advanced-mining-1"},
     icon = "__skan-advanced-mining__/graphics/mining-drills/advanced-mining-drill.png",
     icon_size = 32,
-    effects =
-    {
+    effects = {
       {
         type = "unlock-recipe",
         recipe = "skan-advanced-mining-drill"
       },
     },
     prerequisites = {"steel-processing", "oil-processing"},
-    unit =
-    {
+    unit = {
       count = 200,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
       },
       time = 15
     },
@@ -34,27 +32,25 @@ data:extend({
     localised_description = {"technology-description.skan-advanced-mining-2"},
     icon = "__skan-advanced-mining__/graphics/mining-drills/elite-mining-drill.png",
     icon_size = 32,
-    effects =
-    {
+    effects = {
       {
         type = "unlock-recipe",
         recipe = "skan-elite-mining-drill"
       },
     },
     prerequisites = {"skan-advanced-mining-1"},
-    unit =
-    {
+    unit = {
       count = 350,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-		{"science-pack-3", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
       },
       time = 25
     },
     order = "c-b-b",
-	upgrade = true
+    upgrade = true
   },
   {
     type = "technology",
@@ -63,26 +59,24 @@ data:extend({
     localised_description = {"technology-description.skan-advanced-mining-3"},
     icon = "__skan-advanced-mining__/graphics/mining-drills/ultimate-mining-drill.png",
     icon_size = 32,
-    effects =
-    {
+    effects = {
       {
         type = "unlock-recipe",
         recipe = "skan-ultimate-mining-drill"
       },
     },
     prerequisites = {"skan-advanced-mining-2"},
-    unit =
-    {
+    unit = {
       count = 450,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-		{"science-pack-3", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
       },
       time = 30
     },
     order = "c-b-c",
-	upgrade = true
+    upgrade = true
   }
 })
